@@ -32,19 +32,29 @@ A console-based Math Quiz game written in C++ using fundamental programming conc
 
 | Concept | Programming Problem Covered |
 | :--- | :--- |
-| Generating Random Numbers | Generate random operands within dynamic ranges using RandomNumber(). |
-| Handling User Input | Read and validate quiz choices and player math answers. |
-| Working with Enums | Define and use enum types for dynamic question levels and operation types. |
-| Conditional Logic | Implement dynamic branching using if-else statements and switch-case blocks. |
-| Using Structures (Structs) | Store structured quiz state and per-question details via stQuestion and stQuizz. |
-| Looping (For & While Loops) | Iterate through the specified number of questions and enforce input validation rules. |
-| Creating Functions | Write reusable logic blocks to handle question generation, arithmetic logic, and user input. |
-| Simulating Mixed Content | Build logical systems to randomize operations and levels when the Mixed option is selected. |
-| Clearing the Screen (System Calls) | Use system("cls") to refresh the user interface between full game sessions. |
-| Tracking Scores | Track and update the accumulation of right and wrong answers to determine final pass/fail status. |
-| Working with Boolean Logic | Evaluate math answers against correct calculations to determine conditional flags. |
-| Reading and Returning Values | Use return statements effectively to extract generated data structures and calculation outputs. |
-| Debugging & Output Formatting | Print structured evaluation results and comprehensive dashboards with PrintQuizzResults(). |
+| Random Number Generation | Generate random numbers within a range. |
+| Handling User Input | Read and validate user input (integer values). |
+| Conditional Logic | Check correct/wrong answers and adjust scores. |
+| Arithmetic Operations | Perform addition, subtraction, multiplication, and division. |
+| Function Implementation | Write reusable functions for calculations and I/O operations. |
+| Working with Enums | Define and use enums for question difficulty and operations. |
+| Structs for Data Organization | Use struct to store quiz results and questions. |
+| String Manipulation | Convert enums into readable text. |
+| Looping Through Questions | Iterate over a list of questions using a loop. |
+| Conditional Formatting | Change screen color based on correct/wrong answers. |
+| Validating User Input | Ensure user selects a valid difficulty and operation type. |
+| Comparisons and Decision Making | Determine pass/fail conditions based on scores. |
+| Function Calls and Return Values | Pass and return values between functions. |
+| Generating Mixed Questions | Randomly assign question difficulty and operation type. |
+| Basic AI Behavior (Computer Opponent) | Computer auto-generates questions based on difficulty. |
+| Tracking Scores | Count correct and incorrect answers dynamically. |
+| Screen Clearing and System Calls | Use system("cls") to clear the screen. |
+| Playing an Alert Sound | Use cout << "\a"; to beep on incorrect answers. |
+| Working with Boolean Flags | Store and use boolean values to determine pass/fail. |
+| Game Loop Logic | Implement replay logic to allow multiple quiz sessions. |
+
+## Final Estimation
+This project is equivalent to solving at least 20+ individual programming problems commonly found in beginner-to-intermediate C++ exercises.
 
 ## Requirements and Compilation
 To run this game, you need a C++ compiler or an IDE like Visual Studio.
